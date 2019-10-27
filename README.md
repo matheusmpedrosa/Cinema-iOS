@@ -1,4 +1,4 @@
-<a href="#"><img src="images/cinema-logo-display.png" width="500"/></a>
+<p align="center"><a href="#"><img src="images/cinema-logo-display.png" width="500" /></a></p>
 
 ## About
 
