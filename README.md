@@ -22,12 +22,7 @@ Cinema is a personal project created by [me](https://github.com/matheusmpedrosa)
 ## Authors
 
 <table style="width:100%">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<tbody align="center">
 <tr align="center">
 <td>
      <img src="https://avatars2.githubusercontent.com/u/16017313?s=460&v=4" width="180"/>
@@ -50,6 +45,7 @@ Cinema is a personal project created by [me](https://github.com/matheusmpedrosa)
 </p>
 </td>
 </tr> 
+</tbody>
   </table>
 
 ## Open Source & Copying
