@@ -33,8 +33,6 @@ Cinema is a personal project created by [me](https://github.com/matheusmpedrosa)
 <a href = "https://www.linkedin.com/in/matheus-malcher-pedrosa-3457b1105/"><img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/></a>
 </p>
 </td>
-</tr> 
-<tr>
 <td>
      <img src="https://avatars3.githubusercontent.com/u/36204694?s=460&v=4" width="180"/>
      
