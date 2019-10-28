@@ -21,6 +21,7 @@ Cinema is a personal project created by [me](https://github.com/matheusmpedrosa)
 
 ## Authors
 
+<p align="center">
 <table>
 <tr>
 <td>
@@ -45,6 +46,7 @@ Cinema is a personal project created by [me](https://github.com/matheusmpedrosa)
 </td>
 </tr> 
   </table>
+</p>
 
 ## Open Source & Copying
 
