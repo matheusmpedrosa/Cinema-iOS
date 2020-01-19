@@ -20,12 +20,15 @@ class MenuView: UIView {
     
     lazy private var logoImage: UIImageView = {
         let image = UIImageView(frame: .zero)
+        image.isAccessibilityElement = false
         image.image = #imageLiteral(resourceName: "cinema-logo")
         return image
     }()
     
     lazy private var moviesButton: UIButton = {
         let button = UIButton(frame: .zero)
+        button.isAccessibilityElement = true
+        button.accessibilityLabel = "Movies"
         button.setTitle("MOVIES", for: .normal)
         button.tintColor = .white
         button.setTitleColor(.white, for: .normal)
@@ -37,6 +40,8 @@ class MenuView: UIView {
     
     lazy private var tvShowsButton: UIButton = {
         let button = UIButton(frame: .zero)
+        button.isAccessibilityElement = true
+        button.accessibilityLabel = "TV Shows"
         button.setTitle("TV SHOWS", for: .normal)
         button.tintColor = .white
         button.setTitleColor(.white, for: .normal)
@@ -48,6 +53,8 @@ class MenuView: UIView {
     
     lazy private var peopleButton: UIButton = {
         let button = UIButton(frame: .zero)
+        button.isAccessibilityElement = true
+        button.accessibilityLabel = "People"
         button.setTitle("PEOPLE", for: .normal)
         button.tintColor = .white
         button.setTitleColor(.white, for: .normal)
@@ -73,6 +80,7 @@ class MenuView: UIView {
         setupConstraints()
         setupStackView()
         manageMenuItems()
+        self.isAccessibilityElement = false
     }
     
     private func setupStackView() {
@@ -135,5 +143,4 @@ class MenuView: UIView {
             peopleButton.isSelected = true
         }
     }
-
 }

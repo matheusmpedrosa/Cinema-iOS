@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     private func setupView() {
         buildViewHierarchy()
         setupConstraints()
+        self.isAccessibilityElement = false
     }
     
     private func buildViewHierarchy() {
