@@ -13,6 +13,7 @@
 		804FDA4B23D410C3003CE773 /* SF-Compact-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 804FDA4823D410C2003CE773 /* SF-Compact-Rounded-Semibold.otf */; };
 		804FDA4C23D410C3003CE773 /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 804FDA4923D410C3003CE773 /* SF-Compact-Rounded-Regular.otf */; };
 		804FDA4E23D411E9003CE773 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FDA4D23D411E9003CE773 /* UILabelExtensions.swift */; };
+		804FDA5A23D42EE9003CE773 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FDA5923D42EE9003CE773 /* MenuView.swift */; };
 		8061E3682366579800497C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061E3672366579800497C64 /* AppDelegate.swift */; };
 		8061E36A2366579800497C64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061E3692366579800497C64 /* SceneDelegate.swift */; };
 		8061E36C2366579800497C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061E36B2366579800497C64 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		804FDA4823D410C2003CE773 /* SF-Compact-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Semibold.otf"; sourceTree = "<group>"; };
 		804FDA4923D410C3003CE773 /* SF-Compact-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Regular.otf"; sourceTree = "<group>"; };
 		804FDA4D23D411E9003CE773 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		804FDA5923D42EE9003CE773 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8061E3642366579700497C64 /* Cinema-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinema-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8061E3672366579800497C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8061E3692366579800497C64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				804FDA3C23D3F5D1003CE773 /* Resources */,
 				804FDA3B23D3F5BF003CE773 /* Commom */,
 				8061E36B2366579800497C64 /* ViewController.swift */,
+				804FDA5923D42EE9003CE773 /* MenuView.swift */,
 			);
 			path = "Cinema-iOS";
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804FDA5A23D42EE9003CE773 /* MenuView.swift in Sources */,
 				804FDA4523D3FC19003CE773 /* UIViewExtensions.swift in Sources */,
 				804FDA4223D3FBFA003CE773 /* UIViewControllerExtensions.swift in Sources */,
 				804FDA4E23D411E9003CE773 /* UILabelExtensions.swift in Sources */,
