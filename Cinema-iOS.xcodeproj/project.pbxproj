@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804FDA4223D3FBFA003CE773 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FDA4123D3FBFA003CE773 /* UIViewControllerExtensions.swift */; };
+		804FDA4523D3FC19003CE773 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FDA4423D3FC19003CE773 /* UIViewExtensions.swift */; };
+		804FDA4A23D410C3003CE773 /* SF-Compact-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 804FDA4723D410C2003CE773 /* SF-Compact-Rounded-Bold.otf */; };
+		804FDA4B23D410C3003CE773 /* SF-Compact-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 804FDA4823D410C2003CE773 /* SF-Compact-Rounded-Semibold.otf */; };
+		804FDA4C23D410C3003CE773 /* SF-Compact-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 804FDA4923D410C3003CE773 /* SF-Compact-Rounded-Regular.otf */; };
+		804FDA4E23D411E9003CE773 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FDA4D23D411E9003CE773 /* UILabelExtensions.swift */; };
 		8061E3682366579800497C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061E3672366579800497C64 /* AppDelegate.swift */; };
 		8061E36A2366579800497C64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061E3692366579800497C64 /* SceneDelegate.swift */; };
 		8061E36C2366579800497C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061E36B2366579800497C64 /* ViewController.swift */; };
-		8061E36F2366579800497C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8061E36D2366579800497C64 /* Main.storyboard */; };
 		8061E3712366579A00497C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8061E3702366579A00497C64 /* Assets.xcassets */; };
 		8061E3742366579A00497C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8061E3722366579A00497C64 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		804FDA4123D3FBFA003CE773 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		804FDA4423D3FC19003CE773 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		804FDA4723D410C2003CE773 /* SF-Compact-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		804FDA4823D410C2003CE773 /* SF-Compact-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		804FDA4923D410C3003CE773 /* SF-Compact-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		804FDA4D23D411E9003CE773 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		8061E3642366579700497C64 /* Cinema-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinema-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8061E3672366579800497C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8061E3692366579800497C64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8061E36B2366579800497C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8061E36E2366579800497C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8061E3702366579A00497C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8061E3732366579A00497C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8061E3752366579A00497C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +47,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804FDA3B23D3F5BF003CE773 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				8061E3672366579800497C64 /* AppDelegate.swift */,
+				8061E3692366579800497C64 /* SceneDelegate.swift */,
+				804FDA4023D3FBE9003CE773 /* Extensions */,
+			);
+			name = Commom;
+			sourceTree = "<group>";
+		};
+		804FDA3C23D3F5D1003CE773 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				804FDA4623D4107B003CE773 /* Fonts */,
+				8061E3702366579A00497C64 /* Assets.xcassets */,
+				8061E3722366579A00497C64 /* LaunchScreen.storyboard */,
+				8061E3752366579A00497C64 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		804FDA4023D3FBE9003CE773 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				804FDA4123D3FBFA003CE773 /* UIViewControllerExtensions.swift */,
+				804FDA4D23D411E9003CE773 /* UILabelExtensions.swift */,
+				804FDA4423D3FC19003CE773 /* UIViewExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		804FDA4623D4107B003CE773 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				804FDA4923D410C3003CE773 /* SF-Compact-Rounded-Regular.otf */,
+				804FDA4823D410C2003CE773 /* SF-Compact-Rounded-Semibold.otf */,
+				804FDA4723D410C2003CE773 /* SF-Compact-Rounded-Bold.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		8061E35B2366579700497C64 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +107,9 @@
 		8061E3662366579700497C64 /* Cinema-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8061E3672366579800497C64 /* AppDelegate.swift */,
-				8061E3692366579800497C64 /* SceneDelegate.swift */,
+				804FDA3C23D3F5D1003CE773 /* Resources */,
+				804FDA3B23D3F5BF003CE773 /* Commom */,
 				8061E36B2366579800497C64 /* ViewController.swift */,
-				8061E36D2366579800497C64 /* Main.storyboard */,
-				8061E3702366579A00497C64 /* Assets.xcassets */,
-				8061E3722366579A00497C64 /* LaunchScreen.storyboard */,
-				8061E3752366579A00497C64 /* Info.plist */,
 			);
 			path = "Cinema-iOS";
 			sourceTree = "<group>";
@@ -125,9 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804FDA4A23D410C3003CE773 /* SF-Compact-Rounded-Bold.otf in Resources */,
+				804FDA4C23D410C3003CE773 /* SF-Compact-Rounded-Regular.otf in Resources */,
+				804FDA4B23D410C3003CE773 /* SF-Compact-Rounded-Semibold.otf in Resources */,
 				8061E3742366579A00497C64 /* LaunchScreen.storyboard in Resources */,
 				8061E3712366579A00497C64 /* Assets.xcassets in Resources */,
-				8061E36F2366579800497C64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804FDA4523D3FC19003CE773 /* UIViewExtensions.swift in Sources */,
+				804FDA4223D3FBFA003CE773 /* UIViewControllerExtensions.swift in Sources */,
+				804FDA4E23D411E9003CE773 /* UILabelExtensions.swift in Sources */,
 				8061E36C2366579800497C64 /* ViewController.swift in Sources */,
 				8061E3682366579800497C64 /* AppDelegate.swift in Sources */,
 				8061E36A2366579800497C64 /* SceneDelegate.swift in Sources */,
@@ -147,14 +199,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8061E36D2366579800497C64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8061E36E2366579800497C64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8061E3722366579A00497C64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
