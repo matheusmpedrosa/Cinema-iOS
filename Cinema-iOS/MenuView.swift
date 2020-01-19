@@ -8,6 +8,12 @@
 
 import UIKit
 
+enum SelectedMenuItem {
+    case movies
+    case tvShows
+    case people
+}
+
 class MenuView: UIView {
     
     private var stackView = UIStackView()
@@ -50,6 +56,8 @@ class MenuView: UIView {
         button.addTarget(self, action: #selector(peopleButtonWasTapped), for: .touchUpInside)
         return button
     }()
+    
+    private var selectedMenuItem: SelectedMenuItem = .movies
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -64,6 +72,7 @@ class MenuView: UIView {
         buildViewHierarchy()
         setupConstraints()
         setupStackView()
+        manageMenuItems()
     }
     
     private func setupStackView() {
@@ -92,16 +101,39 @@ class MenuView: UIView {
     @objc
     private func moviesButtonWasTapped() {
         print("moviesButtonWasTapped()")
+        selectedMenuItem = .movies
+        manageMenuItems()
     }
     
     @objc
     private func tvShowsButtonWasTapped() {
         print("tvShowsButtonWasTapped()")
+        selectedMenuItem = .tvShows
+        manageMenuItems()
     }
     
     @objc
     private func peopleButtonWasTapped() {
         print("peopleButtonWasTapped()")
+        selectedMenuItem = .people
+        manageMenuItems()
+    }
+    
+    private func manageMenuItems() {
+        switch selectedMenuItem {
+        case .movies:
+            moviesButton.isSelected = true
+            tvShowsButton.isSelected = false
+            peopleButton.isSelected = false
+        case .tvShows:
+            moviesButton.isSelected = false
+            tvShowsButton.isSelected = true
+            peopleButton.isSelected = false
+        case .people:
+            moviesButton.isSelected = false
+            tvShowsButton.isSelected = false
+            peopleButton.isSelected = true
+        }
     }
 
 }
